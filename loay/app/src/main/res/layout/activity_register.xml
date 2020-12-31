@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/View3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:text="Create profile to start your first ToDo List"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#7D5ECA"
+        android:ems="10"
+        android:hint="your name"
+        android:inputType="textPersonName"
+        android:paddingStart="30dp"
+        android:paddingLeft="30dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#7D5ECA"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPersonName"
+        android:paddingStart="30dp"
+        android:paddingLeft="30dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#7D5ECA"
+        android:ems="10"
+        android:hint="Your email address"
+        android:inputType="textPersonName"
+        android:paddingStart="30dp"
+        android:paddingLeft="30dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/regis"
+        android:layout_width="346dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:background="#FF9800"
+        android:onClick="onClick"
+        android:text="Create your  profile "
+        android:textAllCaps="false"
+        android:textColor="#E0DDE6"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/View4"
+        android:layout_width="326dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="Already have an account ?"
+        android:textColor="#B7E9E9E9"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/bake_login"
+        android:layout_width="326dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

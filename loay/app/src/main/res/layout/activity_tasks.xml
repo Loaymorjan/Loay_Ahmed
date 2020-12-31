@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7 "
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:alpha="0.7"
+        android:gravity="center"
+        android:text="Things ToDo"
+        android:textColor="#FFFFFF "
+        android:textSize="18sp"
+
+        />
+
+    <View
+        android:id="@+id/bakeList"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginRight="330dp"
+
+        android:background="@drawable/aaa"
+        android:onClick="onClick" />
+
+    <View
+        android:id="@+id/back_ccchevro"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/ic_search_black_24dp" />
+
+    <TextView
+        android:id="@+id/List_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:text="Personal List"
+        android:textColor="#FFFFFF "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/deldteList"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="-34dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.7"
+        android:onClick="onClick"
+        android:text="Delete"
+
+        android:textColor="#94FFFFFF"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/createTask"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:alpha="0.19"
+        android:background="#FFFFFF"
+
+        android:onClick="onClick" />
+
+    <View
+        android:id="@+id/back_cchevro"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginRight="320dp"
+
+        android:background="@drawable/ic_add_black_24dp" />
+
+    <TextView
+        android:id="@+id/Create_list"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-28dp"
+        android:layout_marginRight="130dp"
+        android:alpha="0.8"
+        android:text="Create new task here"
+        android:textColor="#FFFFFF"
+
+
+        android:textSize="18sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcy_task"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="25dp"
+        android:background="#673AB7 "
+        android:orientation="vertical" />
+
+
+</LinearLayout>

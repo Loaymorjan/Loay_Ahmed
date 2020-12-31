@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7 "
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:alpha="0.7"
+        android:gravity="center"
+
+        android:text="Lists ToDo"
+        android:textColor="#FFFFFF "
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/bakeLoog"
+        android:layout_width="46dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginRight="320dp"
+
+        android:background="@drawable/aaa"
+        android:onClick="onClick" />
+
+    <EditText
+        android:id="@+id/Text2"
+        android:layout_width="370dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:alpha="0.7"
+        android:background="#8068B1"
+        android:ems="20"
+        android:hint="Search"
+        android:inputType="textPersonName"
+        android:paddingLeft="55dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/back2"
+        android:layout_width="35dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginRight="310dp"
+
+        android:background="@drawable/ic_search_black_24dp" />
+
+    <TextView
+        android:id="@+id/List_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"
+        android:text="Lists :"
+        android:textColor="#FFFFFF "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Create_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="#8068B1"
+        android:onClick="onClick"
+        android:paddingLeft="55dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Create new list here"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="-45dp"
+        android:layout_marginRight="315dp"
+        android:foreground="@drawable/ic_add_black_24dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ryc_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="#673AB7"
+        android:orientation="horizontal"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbarDefaultDelayBeforeFade="400" />
+
+
+</LinearLayout>
